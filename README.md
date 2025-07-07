@@ -1,5 +1,6 @@
 # Type-Driven vs. Function-Driven Design in Rust
 - [*reference*](#reference)
+
 This repository explores two distinct approaches to designing software in Rust:
 Type-Driven Design and Function-Driven Design. It uses a simple example of a
 progress indicator for iterators to highlight the differences and benefits of
