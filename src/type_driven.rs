@@ -28,7 +28,8 @@ trait ProgressIteratorExt: Sized {
     fn progress(self) -> Progress<Self>;
 }
 
-impl<Iter> ProgressIteratorExt for Iter {
+impl<Iter> ProgressIteratorExt for Iter
+where Iter: Iterator {
     fn progress(self) -> Progress<Self> {
         Progress::new(self)
     }
@@ -39,8 +40,8 @@ fn expensive_calculation(_n: &i32) {
 }
 
 fn main() {
-    let _x = 1.progress();
-    let _y = "hello".progress();
+    //let _x = 1.progress();
+    //let _y = "hello".progress();
 
     let v: Vec<i32> = vec![1, 2, 3];
     for n in v.iter().progress() {
