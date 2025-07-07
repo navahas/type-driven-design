@@ -43,7 +43,7 @@ fn main() {
 
 
 ### Reference
-The concepts explored in this repository are part of the ["Type-Driven API
+The concepts explored in this repository are part of the video ["Type-Driven API
 Design in Rust" by Will Richton](https://www.youtube.com/watch?v=bnnacleqg6k)
-from the Strange Loop Conference. For a deeper dive into this topic, consider
+from Strange Loop Conference. For a deeper dive into this topic, consider
 his [online resource](https://willcrichton.net/rust-api-type-patterns/).
