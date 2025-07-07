@@ -1,11 +1,13 @@
-# Type-Driven vs. Function-Driven Design in Rust This repository explores two
-distinct approaches to designing software in Rust: Type-Driven Design and
-Function-Driven Design. It uses a simple example of a progress indicator for
-iterators to highlight the differences and benefits of each paradigm.
+# Type-Driven vs. Function-Driven Design in Rust
+- [*reference*](#reference)
+This repository explores two distinct approaches to designing software in Rust:
+Type-Driven Design and Function-Driven Design. It uses a simple example of a
+progress indicator for iterators to highlight the differences and benefits of
+each paradigm.
 
-## Overview The core idea is to add a simple visual progress bar (using `*`
-characters) to a loop that performs an "expensive calculation." We demonstrate
-two ways to achieve this:
+## Overview
+The core idea is to add a simple visual progress bar (using `*` characters) to
+a loop that performs an "expensive calculation." 
 
 - `src/type_driven.rs`: This file showcases a type-driven approach. It defines
 a new struct Progress<Iter> that wraps an iterator and implements the Iterator
@@ -40,7 +42,8 @@ fn main() {
 ```
 
 
-### Further Reading
-The concepts explored in this repository are inspired by discussions around
-type-driven design in Rust. For a deeper dive into this topic, consider the
-work of Will Crichton, particularly his resources on *"Type-Driven API Design in Rust."*
+### Reference
+The concepts explored in this repository are part of the ["Type-Driven API
+Design in Rust" by Will Richton](https://www.youtube.com/watch?v=bnnacleqg6k)
+from the Strange Loop Conference. For a deeper dive into this topic, consider
+his [online resource](https://willcrichton.net/rust-api-type-patterns/).
