@@ -3,4 +3,12 @@ name = "type-design"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "type-driven"
+path = "src/type_driven.rs"
+
+[[bin]]
+name = "function-driven"
+path = "src/function_driven.rs"
+
 [dependencies]
