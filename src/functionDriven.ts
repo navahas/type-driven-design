@@ -20,6 +20,9 @@ function expensiveCalculation(_n: number): void {
 function main(): void {
     const v = [1, 2, 3];
     progress(v, expensiveCalculation);
+
+    const b = "a b".split('').map(c => c.charCodeAt(0));
+    progress(b, expensiveCalculation);
 }
 
 
