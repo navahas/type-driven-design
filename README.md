@@ -10,7 +10,7 @@ each paradigm.
 The core idea is to add a simple visual progress bar (using `*` characters) to
 a loop that performs an "expensive calculation." 
 
-- `src/type_driven.rs`: This file showcases a type-driven approach. It defines
+- `src/main.rs`: This file showcases a type-driven approach. It defines
 a new struct Progress<Iter> that wraps an iterator and implements the Iterator
 trait itself. This allows for a fluent API where you can call .progress()
 directly on any iterator, making the progress functionality an intrinsic part
