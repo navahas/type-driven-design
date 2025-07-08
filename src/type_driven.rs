@@ -89,9 +89,9 @@ fn main() {
     let brkts = ('<', '>');
 
     // Type enforcement giving error when compiling
-    for n in (0..).progress().with_delims(brkts) {
-        expensive_calculation(&n);
-    }
+    //for n in (0..).progress().with_delims(brkts) {
+    //    expensive_calculation(&n);
+    //}
 
     let v: Vec<i32> = vec![1, 2, 3];
     for n in v.iter().progress().with_bound().with_delims(brkts) {

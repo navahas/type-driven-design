@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                     // Modern JS target
+    "module": "ESNext",                     // Modern module system
+    "lib": ["ES2022", "DOM"],               // Includes DOM for browser APIs
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,                         // Enables all strict type-checking
+    "noImplicitAny": true,                  // Disallow implicit any types
+    "strictNullChecks": true,               // Null & undefined are distinct
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,                 // Warn on unused locals
+    "noUnusedParameters": true,             // Warn on unused parameters
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,                // For compatibility with CommonJS
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true                    // Speeds up compilation
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
